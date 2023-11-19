@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import joblib
 import numpy as np
 
-loaded_model = joblib.load('App/MM.h5')
+loaded_model = joblib.load('MM.h5')
 
 happy = {1:'คุณมีความสุขอยู่ในระดับน้อยที่สุด',2:'คุณมีความสุขอยู่ในระดับน้อย',3:'คุณมีความสุขอยู่ในระดับปานกลาง',4:'คุณมีความสุขอยู่ในระดับมาก',5:'คุณมีความสุขอยู่ในระดับมากที่สุด'}
 
