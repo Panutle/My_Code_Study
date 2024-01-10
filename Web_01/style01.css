@@ -1,0 +1,10 @@
+body {
+
+    background-image: linear-gradient(to right top, #ffcc70, #ffae69, #ff8f71, #ff7183, #fa599c, #e752ab, #cf50ba, #af52c7, #9a54cb, #8255ce, #6657d0, #4158d0);
+    width: 100vw;
+    height: 100vh; 
+}
+h1{
+    font-family: 'Kanit', sans-serif;
+    color: #FFFFFF;
+}
